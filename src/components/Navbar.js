@@ -26,12 +26,49 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollPosition, visible, handleScroll]);
 
+  // const mediaMatch = window.matchMedia('(min-width: 768px)');
+
+  // console.log(mediaMatch.matches);
+
+  const minStyles = {
+    style: {
+      bottom: visible ? '0' : '-36px',
+      color: 'red',
+    }
+  }
+
+  const maxStyles = {
+    style: {
+      bottom: 'auto',
+      left: visible ? '0' : '-36px',
+    }
+  }
+
+  const style = function () {
+    if (window.innerWidth < 768) {
+      return minStyles;
+      console.log(minStyles.style);
+    } else {
+      return maxStyles;
+      console.log(maxStyles.style);
+    }
+  }
+
+  // const style = {
+  //   '@media screen and (maxWidth: 768px)': {
+  //     bottom: visible ? '0' : '-36px',
+  //   },
+
+  //   '@media screen and (minWidth: 768px)': {
+  //     bottom: 'auto',
+  //     left: visible ? '0' : '-36px',
+  //   }
+  // }
 
 
-  
 
   return (
-    <div className="nav-bar" style={{bottom: visible ? '0' : '-36px'}}>
+    <div className="nav-bar" style={style.style}>
       <ul>
         <li>
           <Link smooth to='/' className="home-link">Home</Link>
