@@ -26,14 +26,9 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [prevScrollPosition, visible, handleScroll]);
 
-  // const mediaMatch = window.matchMedia('(min-width: 768px)');
-
-  // console.log(mediaMatch.matches);
-
   const minStyles = {
     style: {
       bottom: visible ? '0' : '-36px',
-      color: 'red',
     }
   }
 
@@ -44,34 +39,19 @@ function Navbar() {
     }
   }
 
-  const style = function () {
+  function style() {
     if (window.innerWidth < 768) {
       return minStyles;
-      console.log(minStyles.style);
     } else {
       return maxStyles;
-      console.log(maxStyles.style);
     }
   }
 
-  // const style = {
-  //   '@media screen and (maxWidth: 768px)': {
-  //     bottom: visible ? '0' : '-36px',
-  //   },
-
-  //   '@media screen and (minWidth: 768px)': {
-  //     bottom: 'auto',
-  //     left: visible ? '0' : '-36px',
-  //   }
-  // }
-
-
-
   return (
-    <div className="nav-bar" style={style.style}>
+    <div className="nav-bar" style={style().style}>
       <ul>
         <li>
-          <Link smooth to='/' className="home-link">Home</Link>
+          <Link smooth to='#' className="home-link">Home</Link>
         </li>
         <li>
           <Link smooth to='#about' className="about-link">About</Link>
@@ -83,7 +63,7 @@ function Navbar() {
           <Link smooth to='#contact' className="contact-link">Contact</Link>
         </li>
       </ul>
-    </div>
+    </div >
   )
 }
 export default Navbar

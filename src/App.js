@@ -8,9 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="site-wrapper">
-        <main className='site-main'>
-          <header />
+        <header>
           <Navbar />
+        </header>
+        <main className='site-main'>
           <About />
           <Projects />
           <Contact />

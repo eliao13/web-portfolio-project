@@ -9,9 +9,9 @@
     transition: bottom 0.5s;
 
     @media screen and (min-width: 768px) {
-        transform: rotate(90deg) translateX(430px) translateY(390px);
+        transform: rotate(90deg) translateX(290px) translateY(235px);
         transition: left 0.5s;
-        bottom: auto;
+        width: 500px;
     }
 
     ul {
