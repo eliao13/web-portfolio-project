@@ -36,7 +36,7 @@ function Projects() {
     centerPadding: 0,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    autoplay: true, 
+    autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
     pauseOnFocus: true,
@@ -46,10 +46,10 @@ function Projects() {
     beforeChange: (current, next) => setImageIndex(next),
 
     responsive: [
-      { 
-        breakpoint: 1000, 
-        settings: { 
-          slidesToShow: 1, 
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 1,
         }
       }
     ]
@@ -62,13 +62,13 @@ function Projects() {
       <Slider {...settings}>
         {projectsData.map((project, i) => {
           return (<ProjectCard key={i}
-                              className={i === imageIndex ? 'slide activeSlide' : 'slide'}
-                              title={project.title}
-                              shortSummary={project.shortSummary}
-                              image={project.sampleImage}
-                              link={project.link} 
-                              singleProject={project.singleProject}
-                              />)
+            className={i === imageIndex ? 'slide activeSlide' : 'slide'}
+            title={project.title}
+            shortSummary={project.shortSummary}
+            image={project.sampleImage}
+            link={project.link}
+            singleProject={project.singleProject}
+          />)
         })}
       </Slider>
     </section>
