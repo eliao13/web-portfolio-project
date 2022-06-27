@@ -1,27 +1,27 @@
 import Skills from "./Skills";
 
-function ProjectCard({className, title, shortSummary, image, link, singleProject}) {
+function ProjectCard({ title, shortSummary, image, link, singleProject }) {
 
   return (
-    <div className={className}>
-        <img src={image} alt={`screen shot of ${title}`} />
-        
-        <h2>{title}</h2>
+    <article className="card">
+      <img src={image} alt={`screen shot of ${title}`} />
 
-        <ul>
-          {singleProject.map((detail, i) => {
-            return (
-             <Skills detail={detail}
-                           key={i}
-                          />
-            )
-          })}
-        </ul>
+      <h3>{title}</h3>
 
-        <p>{shortSummary}</p>
+      <ul>
+        {singleProject.map((detail, i) => {
+          return (
+            <Skills detail={detail}
+              key={i}
+            />
+          )
+        })}
+      </ul>
 
-        <a className="project-card-links" href={link}>Live Site</a>
-    </div>
+      <p>{shortSummary}</p>
+
+      <a className="project-card-links" href={link}>Live Site</a>
+    </article>
   )
 }
 export default ProjectCard

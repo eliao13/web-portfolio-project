@@ -62,27 +62,27 @@ const projectsData = [
             reflection: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
         }]
     },
-    {
-        title: 'City Website - Taipei',
-        shortSummary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor.',
-        sampleImage: '/assets/image/portfolio-1.jpg',
-        link: 'https://www.evanwliao.com/city-website-taipei',
-        singleProject: [{
-            title: 'City Website - Taipei',
-            responsiveSampleImage: '',
-            skills: ['Html5', 'Javascript', 'Css3'],
-            tools: ['Adobexd', 'Github'],
-            timeline: '1 month',
-            team: 'Myself',
-            role: 'Developer/designer',
-            liveSiteLink: 'https://www.evanwliao.com/city-website-taipei',
-            githubLink: 'https://github.com/',
-            overview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
-            processAndFeatures: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
-            processScreenshots: '',
-            reflection: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
-        }]
-    },
+    // {
+    //     title: 'City Website - Taipei',
+    //     shortSummary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor.',
+    //     sampleImage: '/assets/image/portfolio-1.jpg',
+    //     link: 'https://www.evanwliao.com/city-website-taipei',
+    //     singleProject: [{
+    //         title: 'City Website - Taipei',
+    //         responsiveSampleImage: '',
+    //         skills: ['Html5', 'Javascript', 'Css3'],
+    //         tools: ['Adobexd', 'Github'],
+    //         timeline: '1 month',
+    //         team: 'Myself',
+    //         role: 'Developer/designer',
+    //         liveSiteLink: 'https://www.evanwliao.com/city-website-taipei',
+    //         githubLink: 'https://github.com/',
+    //         overview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
+    //         processAndFeatures: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
+    //         processScreenshots: '',
+    //         reflection: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
+    //     }]
+    // },
 ]
 
 export default projectsData;
