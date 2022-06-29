@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Herobanner from './components/Herobanner';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -14,6 +15,7 @@ function App() {
           <Navbar />
         </header>
         <main className='site-main'>
+          <Herobanner />
           <About />
           <Projects />
           <Contact />
