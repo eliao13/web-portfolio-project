@@ -10,12 +10,6 @@ function ToTopButton() {
     useEffect(() => {
         window.addEventListener('scroll', () => {
             { window.scrollY > 400 ? setShowTopBtn(true) : setShowTopBtn(false) }
-
-            // if (window.scrollY > 400) {
-            //     setShowTopBtn(true);
-            // } else {
-            //     setShowTopBtn(false);
-            // }
         })
     }, []);
 
@@ -33,7 +27,8 @@ function ToTopButton() {
                 <FaAngleUp
                     className='icon-position icon-style'
                     onClick={goToTop} />
-            )}{" "}
+            )}
+            {" "}
         </div>
     )
 }
