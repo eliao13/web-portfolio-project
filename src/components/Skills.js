@@ -13,7 +13,7 @@ function Skills({detail}) {
         detail.skills.map((skill, i) => {
             return (
                 <li key={i}>
-                    <IconName name={'Si' + `${skill.charAt(0).toUpperCase() + skill.slice(1).toLowerCase()}`} />
+                    <IconName name={ `Si${skill.charAt(0).toUpperCase() + skill.slice(1).toLowerCase()}`} />
                 </li>
             )
         })
