@@ -28,7 +28,7 @@ function Herobanner() {
       <h2>
         I'm a web-developer who is experienced in React and SASS. I also love to build projects.
       </h2>
-      <Link smooth to='#about' className="about-link">More About Me</Link>
+      <Link smooth to='#about' className="cta-buttons">More About Me</Link>
     </section>
   )
 }
