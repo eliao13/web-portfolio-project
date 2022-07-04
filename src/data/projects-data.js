@@ -34,11 +34,6 @@ const projectsData = [
                             screenshot: '',
                         },
                         {
-                            title: 'Single Movie Page',
-                            content: 'The single movie page uses the TMDB API to display detailed information about the movie. Information that is displayed includes the movie poster, movie title, release date, movie rating, movie runtime, movie genres, movie overview, directors, and cast. The user is able to add or remove the movie to or from the favourites list on this page.',
-                            screenshot: '',
-                        },
-                        {
                             title: 'Takeaways',
                             content: 'The most challenging part about this project was the add to favourite feature. It involved use react-redux and going into local storage to add, remove, or retrieve movies for the favourites list.\nThrough developing this project, I learned more about the foundation of React and Sass, and how gained more experience working as a team using GitHub.',
                         },

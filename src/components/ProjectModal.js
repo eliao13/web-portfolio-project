@@ -1,5 +1,6 @@
-import { Modal, Box, Accordion, AccordionSummary, AccordionDetails } from "@mui/material"
+import { Modal, Box, Accordion, AccordionSummary, AccordionDetails, IconButton } from "@mui/material"
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import CloseIcon from '@mui/icons-material/Close';
 import Skills from "./Skills";
 import Tools from "./Tools";
 
@@ -20,6 +21,7 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
     return (
         <>
             <Modal
+                keepMounted
                 open={open}
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
@@ -27,6 +29,7 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
             >
                 <Box sx={style}>
                     <h2 className="modal-title">{singleProjectDetail.title}</h2>
+                    <IconButton onClick={handleClose}><CloseIcon /></IconButton>
                     <section className="modal-details">
                         <img src={singleProjectDetail.responsiveSampleImage} alt={`Responsive sample image of ${singleProjectDetail.title}`} />
                         <h3>Skills</h3>
