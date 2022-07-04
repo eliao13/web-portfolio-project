@@ -66,8 +66,10 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
                                 {singleProjectDetail.development.map((paragraph, i) => {
                                     return (
                                         <article>
-                                            <h4>{paragraph.title}</h4>
+                                            <h3>{paragraph.title}</h3>
                                             <p>{paragraph.content}</p>
+                                            {console.log(paragraph.screenshot)}
+                                            {paragraph.screenshot !== undefined && <img src={paragraph.screenshot} alt={`Screenshot or video of ${singleProjectDetail.title}'s ${paragraph.title}`} />}
                                         </article>
                                     )
                                 })}

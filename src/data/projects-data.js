@@ -21,7 +21,7 @@ const projectsData = [
                         {
                             title: 'Carousel Hero Banner',
                             content: 'Hero banner showcases the top 3 upcoming movies that are pulled from the TMDB API. The carousel itself is automatic and is infinite loop. The carousel is also swipeable for mobile and tablet users. For desktop users, the carousel pauses when the mouse is over the carousel.',
-                            screenshot: '',
+                            screenshot: '/assets/image/movie-1.jpg',
                         },
                         {
                             title: 'Search Feature',
@@ -41,10 +41,8 @@ const projectsData = [
                         {
                             title: 'Takeaways',
                             content: 'The most challenging part about this project was the add to favourite feature. It involved use react-redux and going into local storage to add, remove, or retrieve movies for the favourites list.\nThrough developing this project, I learned more about the foundation of React and Sass, and how gained more experience working as a team using GitHub.',
-                            screenshot: '',
                         },
                     ],
-                reflection: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
             }]
     },
     {
@@ -79,10 +77,12 @@ const projectsData = [
                         {
                             title: 'Styling',
                             content: 'The styling process involved checking for reused components and splitting the tasks into reused components. By splitting the tasks into reused components allows for consistency and eliminates any redundant work.',
-                            screenshot: '',
+                        },
+                        {
+                            title: 'Takeaways',
+                            content: 'The styling process involved checking for reused components and splitting the tasks into reused components. By splitting the tasks into reused components allows for consistency and eliminates any redundant work.',
                         },
                     ],
-                reflection: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
             }]
     },
     {
@@ -119,31 +119,13 @@ const projectsData = [
                             content: 'The styling process involved checking for reused components and splitting the tasks into reused components. By splitting the tasks into reused components allows for consistency and eliminates any redundant work.',
                             screenshot: '',
                         },
+                        {
+                            title: 'Takeaways',
+                            content: 'The styling process involved checking for reused components and splitting the tasks into reused components. By splitting the tasks into reused components allows for consistency and eliminates any redundant work.',
+                        },
                     ],
-                reflection: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
             }]
     },
-    // {
-    //     title: 'City Website - Taipei',
-    //     shortSummary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor.',
-    //     sampleImage: '/assets/image/portfolio-1.jpg',
-    //     link: 'https://www.evanwliao.com/city-website-taipei',
-    //     singleProject: [{
-    //         title: 'City Website - Taipei',
-    //         responsiveSampleImage: '',
-    //         skills: ['Html5', 'Javascript', 'Css3'],
-    //         tools: ['Adobexd', 'Github'],
-    //         timeline: '1 month',
-    //         team: 'Myself',
-    //         role: 'Developer/designer',
-    //         liveSiteLink: 'https://www.evanwliao.com/city-website-taipei',
-    //         githubLink: 'https://github.com/',
-    //         overview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
-    //         processAndFeatures: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
-    //         processScreenshots: '',
-    //         reflection: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla orci eu mauris luctus, vitae tincidunt quam porttitor. Donec vitae nisi quis metus tincidunt auctor eu vel orci. Pellentesque viverra est at erat vulputate, eu rhoncus nisi pharetra. Donec arcu quam, venenatis vel erat vel, rhoncus consequat ligula. Quisque non eleifend libero, varius aliquet enim. Nunc et consequat velit, sit amet semper elit. Vestibulum in mi ac metus iaculis volutpat. Sed magna eros, aliquam at purus sit amet, fringilla suscipit ligula. Donec tincidunt orci et odio tincidunt finibus.',
-    //     }]
-    // },
 ]
 
 export default projectsData;
