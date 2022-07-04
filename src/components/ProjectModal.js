@@ -63,7 +63,14 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
                                 <h3>Development</h3>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <p>{singleProjectDetail.development}</p>
+                                {singleProjectDetail.development.map((paragraph, i) => {
+                                    return (
+                                        <article>
+                                            <h4>{paragraph.title}</h4>
+                                            <p>{paragraph.content}</p>
+                                        </article>
+                                    )
+                                })}
                             </AccordionDetails>
                         </Accordion>
 
