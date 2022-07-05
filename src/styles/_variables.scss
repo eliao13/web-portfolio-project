@@ -1,11 +1,20 @@
 @use 'typography';
 
-$headerfont : 'Fuzzy-Bubbles-Bold';
-$textfont : 'Montserrat-Regular';
+$headerfont : 'Fuzzy-Bubbles-Bold',
+Arial,
+Helvetica,
+sans-serif;
+
+$textfont : 'Montserrat-Regular',
+Arial,
+Helvetica,
+sans-serif;
 
 $textcolors : #000000;
 $navcolorhome : #E76F51;
 $navcolorabout : #F4A261;
 $navcoloraboutsecondary: #c98751;
 $navcolorprojects : #E9C46A;
+$navcolorprojectssecondary: #bfa25a;
 $navcolorcontact : #6EA3BF;
+$navcolorcontactsecondary: #c98751;

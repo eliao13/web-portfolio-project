@@ -1,0 +1,23 @@
+.social-media-icons {
+    margin: 1rem;
+
+    .social-media-icon {
+        margin: 1rem;
+    }
+
+    svg {
+        width: 36px;
+        height: 36px;
+        fill: black;
+
+        &:hover {
+            fill: red;
+        }
+    }
+
+    @media screen and (min-width: 70rem) {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
