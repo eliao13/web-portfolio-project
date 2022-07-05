@@ -8,3 +8,15 @@
 @import 'hero-banner.scss';
 @import 'site-main';
 @import 'cta-buttons';
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.site-main {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}

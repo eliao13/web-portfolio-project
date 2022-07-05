@@ -7,7 +7,8 @@ function Herobanner() {
   const [text, setText] = useState("");
 
   // Final text we want to see typed out
-  const [fullText, setFullText] = useState("Hello, I'm Evan Liao.\nWelcome to my page.");
+  // const [fullText, setFullText] = useState("Hello, I'm Evan Liao.\nWelcome to my page.");
+  const fullText = "Hello, I'm Evan Liao.\nWelcome to my page.";
 
   // Current index of the displayed text
   const [index, setIndex] = useState(0);
@@ -26,9 +27,9 @@ function Herobanner() {
       <h1>{text}</h1>
 
       <h2>
-        I'm a web-developer who is experienced in React and SASS. I also love to build projects.
+        I'm a web-developer who is experienced in React and SASS.
       </h2>
-      <Link smooth to='#about' className="cta-buttons">More About Me</Link>
+      <Link smooth to='#about' className="cta-buttons about">More About Me</Link>
     </section>
   )
 }
