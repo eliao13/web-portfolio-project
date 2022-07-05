@@ -1,3 +1,4 @@
+import { SiLinkedin, SiGithub } from 'react-icons/si';
 import { HashLink as Link } from "react-router-hash-link";
 import aboutData from '../data/about-data';
 
@@ -31,6 +32,11 @@ function About() {
           </>
         )
       })}
+      <div className="social-media-icons">
+        <a className='social-media-icon' href="https://www.linkedin.com/in/evanwliao/"><SiLinkedin /></a>
+        <a className='social-media-icon' href="https://github.com/eliao13"><SiGithub /></a>
+      </div>
+
       <Link smooth to='#projects' className="cta-buttons">Check Out My Projects</Link>
     </section>
   )
