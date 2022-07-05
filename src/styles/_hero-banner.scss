@@ -1,3 +1,5 @@
+@import 'variables';
+
 .hero-banner {
     width: 80%;
     height: 100vh;
@@ -6,18 +8,24 @@
     justify-content: center;
     align-items: center;
 
-    h1 {
-        // Line break 
-        white-space: pre-wrap;
+    h1,
+    h2 {
+        margin: 1rem 0;
         align-self: flex-start;
     }
 
+    h1 {
+        // Line break 
+        white-space: pre-wrap;
+    }
+
+    // Fade in animation 
     h2,
-    .about-link {
+    .cta-about {
         opacity: 0;
         animation-name: fadein;
         animation-duration: 2000ms;
-        animation-delay: 3s;
+        animation-delay: 3.5s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -30,5 +38,10 @@
         100% {
             opacity: 1;
         }
+    }
+
+    .cta-about {
+        background-color: $navcolorabout;
+        box-shadow: 0 5px 0 $navcoloraboutsecondary;
     }
 }
