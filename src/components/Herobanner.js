@@ -29,7 +29,7 @@ function Herobanner() {
       <h2>
         I'm a web-developer who is experienced in React and SASS.
       </h2>
-      <Link smooth to='#about' className="cta-buttons about">More About Me</Link>
+      <Link smooth to='#about' className="cta-buttons cta-about">More About Me</Link>
     </section>
   )
 }
