@@ -21,17 +21,17 @@ const projectsData = [
                         {
                             title: 'Carousel Hero Banner',
                             content: 'Hero banner showcases the top 3 upcoming movies that are pulled from the TMDB API. The carousel itself is automatic and is infinite loop. The carousel is also swipeable for mobile and tablet users. For desktop users, the carousel pauses when the mouse is over the carousel.',
-                            screenshot: '/assets/image/movie-1.jpg',
+                            screenshot: '/assets/image/movie-carousel-function.gif',
                         },
                         {
                             title: 'Search Feature',
                             content: 'The search feature dynamically displays a maximum of 10 movie results if the search is valid. The search results are provided with the release years to differentiate movies with the same names.',
-                            screenshot: '',
+                            screenshot: '/assets/image/movie-search-function.gif',
                         },
                         {
                             title: 'Add to Favourite Feature',
                             content: 'This feature allows users to add any movies to their favourites list by pressing on the heart icon on the home page, single movie page, or favourites page. The users are also able to remove any movie from their favourites list anywhere in the site as well. The favourites list is saved in the local storage.',
-                            screenshot: '',
+                            screenshot: '/assets/image/movie-favourite-function.gif',
                         },
                         {
                             title: 'Takeaways',
