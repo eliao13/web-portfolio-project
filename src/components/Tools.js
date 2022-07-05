@@ -7,10 +7,10 @@ const IconName = ({ name }) => {
     return <SiIcon />;
 }
 
-function Skills({ singleProjectDetail }) {
+function Tools({ singleProjectDetail }) {
     return (
-        singleProjectDetail.skills.length > 0 && (
-            singleProjectDetail.skills.map((skill, i) => {
+        singleProjectDetail.tools.length > 0 && (
+            singleProjectDetail.tools.map((skill, i) => {
                 return (
                     <li key={i}>
                         <IconName name={`Si${skill.charAt(0).toUpperCase() + skill.slice(1).toLowerCase()}`} />
@@ -20,4 +20,4 @@ function Skills({ singleProjectDetail }) {
         )
     )
 }
-export default Skills
+export default Tools
