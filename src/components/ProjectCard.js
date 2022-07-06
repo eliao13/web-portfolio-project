@@ -2,9 +2,7 @@ import { useState } from "react";
 import Skills from "./Skills";
 import ProjectModal from "./ProjectModal";
 
-
 function ProjectCard({ project }) {
-
   const [open, setOpen] = useState(false);
 
   function handleOpen() {
@@ -25,9 +23,7 @@ function ProjectCard({ project }) {
         {project.singleProject.map((singleProjectDetail, i) => {
           return (
             <>
-              <Skills singleProjectDetail={singleProjectDetail}
-                key={i}
-              />
+              <Skills singleProjectDetail={singleProjectDetail} key={i} />
 
               <ProjectModal
                 handleClose={handleClose}
@@ -36,7 +32,7 @@ function ProjectCard({ project }) {
                 singleProjectDetail={singleProjectDetail}
               />
             </>
-          )
+          );
         })}
       </ul>
 
@@ -46,19 +42,18 @@ function ProjectCard({ project }) {
         <a className="project-links" href={project.link}>
           Live Site
           <svg viewBox="0 0 70 36">
-              <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
           </svg>
         </a>
 
         <button className="learn-more-btn" onClick={handleOpen}>
           Learn More
           <svg viewBox="0 0 70 36">
-              <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
           </svg>
         </button>
       </div>
-
     </article>
-  )
+  );
 }
-export default ProjectCard
+export default ProjectCard;
