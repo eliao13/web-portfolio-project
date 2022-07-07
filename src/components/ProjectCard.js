@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
     <article className="card">
       <img src={project.sampleImage} alt={`screen shot of ${project.title}`} />
 
-      <h2>{project.title}</h2>
+      <h3>{project.title}</h3>
 
       <ul className="project-card-skill-list">
         {project.singleProject.map((singleProjectDetail, i) => {
