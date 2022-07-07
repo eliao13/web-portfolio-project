@@ -1,27 +1,28 @@
-@import 'normalize';
-@import 'typography';
-@import 'site-wrapper';
-@import 'body';
-@import 'navbar.scss';
-@import 'to-top-btn.scss';
-@import 'projects.scss';
-@import 'hero-banner.scss';
-@import 'site-main';
-@import 'cta-buttons';
-@import 'about';
-@import 'social-media-icons';
-@import 'project-links';
-@import 'project-modal';
-@import 'project-skill-list';
+@import "normalize";
+@import "typography";
+@import "site-wrapper";
+@import "body";
+@import "navbar.scss";
+@import "to-top-btn.scss";
+@import "projects.scss";
+@import "hero-banner.scss";
+@import "site-main";
+@import "cta-buttons";
+@import "about";
+@import "social-media-icons";
+@import "project-links";
+@import "project-modal";
+@import "project-skill-list";
+@import "scroll-bar";
 
 section {
-    // height: 100vh;
-    // scroll-snap-align: start;
+  // height: 100vh;
+  // scroll-snap-align: start;
 }
 
 .site-main {
-    // height: 100vh;
-    // scroll-snap-type: y mandatory;
-    // overflow-y: scroll;
-    // scroll-behavior: smooth;
+  // height: 100vh;
+  // scroll-snap-type: y mandatory;
+  // overflow-y: scroll;
+  // scroll-behavior: smooth;
 }
