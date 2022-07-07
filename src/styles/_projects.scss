@@ -3,10 +3,25 @@
 @import "variables";
 
 .projects {
-  margin: 10rem 0;
+  margin: 5rem 0;
+  padding: 5rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  .cta-contact {
+    margin: 0 auto;
+    background-color: $navcolorcontact;
+    box-shadow: 0 5px 0 $navcolorcontactsecondary;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .projects {
+    margin-top: 20rem;
+    padding-top: 10rem;
+    margin-bottom: 20rem;
+  }
 }
 
 .cards-container {

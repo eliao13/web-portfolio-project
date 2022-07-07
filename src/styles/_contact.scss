@@ -1,10 +1,13 @@
 .contact {
   text-align: center;
-  margin: 10rem 0;
+  margin: 5rem 0;
+  padding: 5rem 0;
 }
 
 @media screen and (min-width: 60rem) {
   .contact {
-    margin: 20rem 0;
+    margin-top: 20rem;
+    padding-top: 10rem;
+    margin-bottom: 20rem;
   }
 }
