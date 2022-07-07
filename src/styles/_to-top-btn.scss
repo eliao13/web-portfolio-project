@@ -7,8 +7,12 @@
 .icon-position {
   position: fixed;
   bottom: 40px;
-  right: 40px;
+  right: 25px;
   z-index: 100;
+
+  @media screen and (min-width: 60rem) {
+    right: 40px;
+  }
 }
 
 .icon-style {

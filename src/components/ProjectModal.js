@@ -60,7 +60,7 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
             <img
               className="project-screenshot"
               src={singleProjectDetail.responsiveSampleImage}
-              alt={`Responsive sample screenshot of ${singleProjectDetail.title}`}
+              alt={`Sample screenshot of ${singleProjectDetail.title}`}
             />
             <section className="modal-details">
               <h3>Skills</h3>
@@ -133,13 +133,14 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
                     <article>
                       <h3>{paragraph.title}</h3>
                       <p>{paragraph.content}</p>
-                      {paragraph.screenshot !== undefined && (
-                        <img
-                          src={paragraph.screenshot}
-                          alt={`Screenshot or video of ${singleProjectDetail.title}'s ${paragraph.title}`}
-                          loading="lazy"
-                        />
-                      )}
+                      {paragraph.screenshot !== undefined &&
+                        paragraph.screenshot !== "" && (
+                          <img
+                            src={paragraph.screenshot}
+                            alt={`Screenshot or video of ${singleProjectDetail.title}'s ${paragraph.title}`}
+                            // loading="lazy"
+                          />
+                        )}
                     </article>
                   );
                 })}
@@ -158,7 +159,11 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
                 <h3>Design</h3>
               </AccordionSummary>
               <AccordionDetails>
-                <p>{singleProjectDetail.design}</p>
+                {singleProjectDetail.design.map((screenshot, i) => {
+                  return (
+                    <img src={screenshot.screenshot} alt={screenshot.title} />
+                  );
+                })}
               </AccordionDetails>
             </Accordion>
           </section>

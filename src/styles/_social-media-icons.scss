@@ -1,23 +1,51 @@
 .social-media-icons {
+  margin: 1rem;
+
+  .social-media-icon {
     margin: 1rem;
+  }
 
-    .social-media-icon {
-        margin: 1rem;
+  svg {
+    width: 36px;
+    height: 36px;
+    fill: black;
+
+    // Bounce on hover and active
+    &:hover,
+    &:focus,
+    &:active {
+      animation: bounce 1s;
     }
 
-    svg {
-        width: 36px;
-        height: 36px;
-        fill: black;
+    @keyframes bounce {
+      0%,
+      20%,
+      53%,
+      80%,
+      100% {
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: translate3d(0, 0, 0);
+      }
 
-        &:hover {
-            fill: red;
-        }
-    }
+      40% {
+        transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        transform: translate3d(0, -6px, 0);
+      }
 
-    @media screen and (min-width: 70rem) {
-        width: 100%;
-        display: block;
-        text-align: center;
+      70% {
+        transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        transform: translate3d(0, -4px, 0);
+      }
+
+      90% {
+        transform: translate3d(0, -2px, 0);
+      }
     }
+  }
+
+  @media screen and (min-width: 70rem) {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 }

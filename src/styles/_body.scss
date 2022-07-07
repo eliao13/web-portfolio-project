@@ -1,7 +1,11 @@
 body {
-    margin: 0;
-    position: relative;
-    min-height: 100vh;
-    background-image: url("../image/line-paper.png");
-    background-size: contain;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../image/line-paper.png");
+  background-size: 90vw 470px;
+
+  @media screen and (min-width: 60rem) {
+    background-size: 85vw 600px;
+  }
 }
