@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Skills from "./Skills";
 import ProjectModal from "./ProjectModal";
+import React, { Fragment } from "react";
 
 function ProjectCard({ project }) {
   const [open, setOpen] = useState(false);
@@ -22,7 +23,7 @@ function ProjectCard({ project }) {
       <ul className="project-card-skill-list">
         {project.singleProject.map((singleProjectDetail, i) => {
           return (
-            <>
+            <React.Fragment key={i}>
               <Skills singleProjectDetail={singleProjectDetail} key={i} />
 
               <ProjectModal
@@ -31,7 +32,7 @@ function ProjectCard({ project }) {
                 open={open}
                 singleProjectDetail={singleProjectDetail}
               />
-            </>
+            </React.Fragment>
           );
         })}
       </ul>

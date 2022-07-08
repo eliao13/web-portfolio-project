@@ -130,7 +130,7 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
               <AccordionDetails>
                 {singleProjectDetail.development.map((paragraph, i) => {
                   return (
-                    <article>
+                    <article key={i}>
                       <h3>{paragraph.title}</h3>
                       <p>{paragraph.content}</p>
                       {paragraph.screenshot !== undefined &&
@@ -138,7 +138,7 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
                           <img
                             src={paragraph.screenshot}
                             alt={`Screenshot or video of ${singleProjectDetail.title}'s ${paragraph.title}`}
-                            // loading="lazy"
+                            loading="lazy"
                           />
                         )}
                     </article>
@@ -161,7 +161,11 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
               <AccordionDetails>
                 {singleProjectDetail.design.map((screenshot, i) => {
                   return (
-                    <img src={screenshot.screenshot} alt={screenshot.title} />
+                    <img
+                      key={i}
+                      src={screenshot.screenshot}
+                      alt={screenshot.title}
+                    />
                   );
                 })}
               </AccordionDetails>
