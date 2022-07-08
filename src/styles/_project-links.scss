@@ -1,0 +1,34 @@
+// Circling animation for project links
+.project-links {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    transition: margin 0.25s;
+
+    &, &:visited, &:hover, &:active {
+        color: inherit;
+    }
+
+    &:hover {
+      --spacing: 4px;  
+      --stroke: var(--line-active);  
+      --stroke-delay: .1s;  
+      --offset: 180px;  
+    }
+
+    svg {
+      width: 76px;  
+      height: 40px;  
+      position: absolute;  
+      left: 50%;  
+      bottom: 0;  
+      transform: translate(-50%, 7px) translateZ(0);  
+      fill: none;  
+      stroke: var(--stroke, #000000);  
+      stroke-linecap: round;  
+      stroke-width: 2px;  
+      stroke-dasharray: var(--offset, 69px) 278px;  
+      stroke-dashoffset: 361px;  
+      transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;  
+    }
+  }

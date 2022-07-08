@@ -1,0 +1,16 @@
+.project-card-skill-list {
+    display: flex;
+    margin: 1rem 0;
+    
+  li {
+    list-style: none;
+
+    &:not(:first-of-type) {
+      padding-left: 0.5rem;
+    }
+  }
+
+  svg {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,20 @@
+.cta-buttons {
+  align-self: flex-start;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    filter: brightness(85%);
+  }
+
+  &:active {
+    box-shadow: none;
+    transform: translateY(5px);
+  }
+
+  &:visited {
+    color: $textcolors;
+  }
+}

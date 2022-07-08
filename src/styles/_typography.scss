@@ -1,38 +1,52 @@
 @font-face {
-    font-family: 'Montserrat-Regular';
-    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf');
-    font-style: 700;
-    font-style: normal;
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+  font-style: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fuzzy-Bubbles-Regular';
-    src: url('../fonts/Fuzzy_Bubbles/FuzzyBubbles-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Fuzzy-Bubbles-Regular";
+  src: url("../fonts/Fuzzy_Bubbles/FuzzyBubbles-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Fuzzy-Bubbles-Bold';
-    src: url('../fonts/Fuzzy_Bubbles/FuzzyBubbles-Bold.ttf');
-    font-style: 700;
-    font-style: normal;
+  font-family: "Fuzzy-Bubbles-Bold";
+  src: url("../fonts/Fuzzy_Bubbles/FuzzyBubbles-Bold.ttf");
+  font-style: 700;
+  font-style: normal;
 }
 
 h1,
 h2,
 h3,
 a {
-    font-family: 'Fuzzy-Bubbles-Bold', Arial, Helvetica, sans-serif;
+  font-family: "Fuzzy-Bubbles-Bold", Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-family: 'Montserrat-Regular', Arial, Helvetica, sans-serif;
+  font-family: "Montserrat-Regular", Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 70rem) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
 }

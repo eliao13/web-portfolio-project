@@ -1,0 +1,32 @@
+@import "variables";
+
+.to-top-btn {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 100;
+
+  @media screen and (min-width: 60rem) {
+    right: 40px;
+  }
+}
+
+.icon-style {
+  background-color: $totopbtn;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.icon-style:hover {
+  background: #ffffff;
+  color: $totopbtn;
+  border: 2px solid $totopbtn;
+}

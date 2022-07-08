@@ -1,10 +1,17 @@
-@use 'typography';
+@use "typography";
 
-$headerfont : 'Fuzzy-Bubbles-Bold';
-$textfont : 'Montserrat-Regular';
+$headerfont: "Fuzzy-Bubbles-Bold", Arial, Helvetica, sans-serif;
 
-$textcolors : #000000;
-$navcolorhome : #E76F51;
-$navcolorabout : #F4A261;
-$navcolorprojects : #E9C46A;
-$navcolorcontact : #6EA3BF;
+$textfont: "Montserrat-Regular", Arial, Helvetica, sans-serif;
+
+$textcolors: #000000;
+$navcolorhome: #e76f51;
+$navcolorhomesecondary: #ba5941;
+$navcolorabout: #f4a261;
+$navcoloraboutsecondary: #c98751;
+$navcolorprojects: #e9c46a;
+$navcolorprojectssecondary: #bfa25a;
+$navcolorcontact: #6ea3bf;
+$navcolorcontactsecondary: #578097;
+
+$totopbtn: #2a9d8f;

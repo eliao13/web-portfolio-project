@@ -1,5 +1,40 @@
-@import 'normalize';
-@import 'typography';
-@import 'site-wrapper';
-@import 'body';
-@import 'navbar.scss';
+// Normalize css
+@import "normalize";
+
+// Set Default CSS
+@import "typography";
+
+// Layout
+@import "site-wrapper";
+@import "body";
+@import "site-main";
+
+// Pages
+@import "hero-banner.scss";
+@import "about";
+@import "projects.scss";
+@import "contact";
+
+// Individual Components
+@import "navbar.scss";
+@import "to-top-btn.scss";
+@import "project-modal";
+
+// Reused Components
+@import "social-media-icons";
+@import "project-links";
+@import "project-skill-list";
+@import "scroll-bar";
+@import "cta-buttons";
+
+section {
+  // height: 100vh;
+  // scroll-snap-align: start;
+}
+
+.site-main {
+  // height: 100vh;
+  // scroll-snap-type: y mandatory;
+  // overflow-y: scroll;
+  // scroll-behavior: smooth;
+}

@@ -1,3 +1,12 @@
 .site-wrapper {
-    margin: 1rem;
+    margin: 0 1rem;
+
+    @media screen and (min-width: 48rem) {
+        margin: 0 4rem
+    }
+
+    @media screen and (min-width: 70rem) {
+        margin: 0 auto;
+        max-width: 62.5rem;
+    }
 }
