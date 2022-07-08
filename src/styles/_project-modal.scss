@@ -68,6 +68,11 @@
           margin: 1rem 0;
         }
       }
+
+      .design-screenshots {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     @media screen and (min-width: 70rem) {
@@ -80,6 +85,11 @@
       .project-info {
         display: flex;
         justify-content: space-around;
+
+        .project-screenshot {
+          max-width: 500px;
+          object-fit: contain;
+        }
       }
     }
   }

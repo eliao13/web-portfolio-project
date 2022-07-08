@@ -158,7 +158,7 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
               >
                 <h3>Design</h3>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails className="design-screenshots">
                 {singleProjectDetail.design.map((screenshot, i) => {
                   return (
                     <img
