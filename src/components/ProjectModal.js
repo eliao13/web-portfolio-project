@@ -58,7 +58,7 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
           </IconButton>
           <section className="project-info">
             <img
-              className="project-screenshot"
+              className="project-screenshot image-frame"
               src={singleProjectDetail.responsiveSampleImage}
               alt={`Sample screenshot of ${singleProjectDetail.title}`}
             />

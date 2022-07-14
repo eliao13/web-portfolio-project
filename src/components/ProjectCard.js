@@ -16,7 +16,11 @@ function ProjectCard({ project }) {
 
   return (
     <article className="card">
-      <img src={project.sampleImage} alt={`screen shot of ${project.title}`} />
+      <img
+        className="image-frame"
+        src={project.sampleImage}
+        alt={`screen shot of ${project.title}`}
+      />
 
       <h3>{project.title}</h3>
 
