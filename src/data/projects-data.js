@@ -130,7 +130,7 @@ const projectsData = [
         team: "Myself",
         role: "Developer/designer",
         liveSiteLink: "https://www.evanwliao.com/",
-        githubLink: "https://github.com/",
+        githubLink: "https://github.com/eliao13/web-portfolio-project",
         overview:
           "Portfolio project was developed to showcase my skills as a developer. This project was developed using React and Sass. Wireframes were done through Figma and high fidelity mockup was done through Adobe XD.",
         development: [
