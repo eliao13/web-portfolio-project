@@ -81,6 +81,8 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
                 <a
                   className="project-links"
                   href={singleProjectDetail.liveSiteLink}
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   Live Site
                   <svg viewBox="0 0 70 36">
@@ -90,6 +92,8 @@ function ProjectModal({ handleClose, open, singleProjectDetail }) {
                 <a
                   className="project-links"
                   href={singleProjectDetail.githubLink}
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   GitHub
                   <svg viewBox="0 0 70 36">

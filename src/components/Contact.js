@@ -10,10 +10,17 @@ function Contact() {
         <a
           className="social-media-icon"
           href="https://www.linkedin.com/in/evanwliao/"
+          target="_blank"
+          rel="noreferrer noopener"
         >
           <SiLinkedin />
         </a>
-        <a className="social-media-icon" href="https://github.com/eliao13">
+        <a
+          className="social-media-icon"
+          href="https://github.com/eliao13"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <SiGithub />
         </a>
       </div>
