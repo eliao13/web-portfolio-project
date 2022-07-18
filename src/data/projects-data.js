@@ -80,7 +80,7 @@ const projectsData = [
         team: "Collaboration of 4 team members",
         role: "Developer/designer",
         liveSiteLink: "https://getoutdoors.bcitwebdeveloper.ca/",
-        githubLink: "https://github.com/",
+        githubLink: "https://github.com/htpwebdesign/get-outdoors",
         overview:
           "Get Outdoors was a WooCommerce store that sells outdoor equipment for various outdoor activities and provides workshops on outdoor related topics. Goal of the capstone project was to develop an online store for Get Outdoors, where users were able to perform various actions, such as view store details, view workshop details, purchase products and ship it to Canada or USA or pick up locally.",
         development: [
